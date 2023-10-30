@@ -18,3 +18,17 @@ Then I followed [these steps](https://climada-python.readthedocs.io/en/stable/gu
 where it says `conda` I used `micromamba`.
 
 After `micromamba` is installed, I added it to the `$PATH` variable in my `.bashrc`.
+
+Had to also run this
+
+```
+micromamba install -c conda-forge jupyter
+```
+
+# Firing up Jupyter 
+First
+```
+eval "$(micromamba shell hook --shell bash)"
+
+micromamba activate climada_env
+```
